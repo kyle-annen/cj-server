@@ -13,7 +13,3 @@
 (deftest error-header-test
   (testing "returns the info header"
     (is (= error "[CJ-SERVER] ERROR: "))))
-
-(deftest print-test
-  (testing "prints the stuff out"
-    (log error "test")))
